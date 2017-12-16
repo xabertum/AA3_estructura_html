@@ -54,6 +54,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -61,3 +62,21 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    margin: -3px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 23px;
+    height: 2px;
+    background-color: white;
+    margin: 3px 0;
+    transition: 0.4s;
+}
+#home-icon {
+    margin: -3px;
+}
+

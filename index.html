@@ -16,10 +16,28 @@
         <header class="item1">1</header>
         <div class="item2">
             <ul>
-                <li><a class="active" href="#home">Home</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#about">About</a></li>
+                <li>
+                    <a href="">
+                        <div class="container" onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </a>
+                </li>
+                <li><a id="home-icon" href="#home"><img src="img/home.png" height="20" alt=""></a></li>
+                <li><a href="#news">Al Minuto</a></li>
+                <li><a href="#contact">Internacional</a></li>
+                <li><a href="#about">Política</a></li>
+                <li><a href="#about">Opinión</a></li>
+                <li><a href="#about">Vida</a></li>
+                <li><a href="#about">Deportes</a></li>
+                <li><a href="#about">Economía</a></li>
+                <li><a href="#about">Local</a></li>
+                <li><a href="#about">Gente</a></li>
+                <li><a href="#about">Cultura</a></li>
+                <li><a href="#about">Sucesos</a></li>
+                <li><a href="#about">Temas</a></li>
             </ul>
         </div>
         <div class="item3">3</div>
@@ -32,6 +50,11 @@
 
     </div>
 
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
 
 </body>
 
