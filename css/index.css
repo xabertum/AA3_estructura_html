@@ -12,17 +12,23 @@ body {
     margin: 0 auto;
 }
 
-.grid-container > * {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
+h4 {
+    text-align: justify;
+}
+p {
+    text-align: left;
+    display: inline-block;
+    font-size: 0.8em;
+}
 
-
-
+.comment-icon {
+    margin-bottom: -2px;
 }
 
 .item1 {
     grid-column: 1/5;
     font-size: 4em;
+    text-align: center;
 
 }
 
@@ -43,10 +49,12 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+
 }
 
 li {
     float: left;
+
 }
 
 li a {
@@ -55,6 +63,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
 
 }
 
@@ -70,22 +79,22 @@ li a:hover {
     margin: -3px;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1,
+.bar2,
+.bar3 {
     width: 23px;
     height: 2px;
     background-color: white;
     margin: 3px 0;
     transition: 0.4s;
 }
+
 #home-icon {
     margin: -3px;
 }
 
 /*********** CONTENIDO ***************/
 
-
 .item5 {
     grid-column: 1/5;
 }
-
-
