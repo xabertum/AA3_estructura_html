@@ -96,7 +96,7 @@ li a:hover {
 .block {
     display: block;
     padding-top: 5%;
-    font-size: 1.5em;
+    font-size: 1.2em;
 
 }
 
@@ -106,5 +106,5 @@ li a:hover {
 }
 
 .noticia-autor {
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
