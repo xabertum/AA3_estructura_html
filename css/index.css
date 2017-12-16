@@ -6,8 +6,8 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 50% 50% 50%;
-    grid-gap: 2px;
-    background-color: #2196F3;
+    grid-gap: 9px;
+
     max-width: 75%;
     margin: 0 auto;
 }
@@ -22,6 +22,7 @@ body {
 
 .item1 {
     grid-column: 1/5;
+    font-size: 4em;
 
 }
 
