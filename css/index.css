@@ -81,3 +81,11 @@ li a:hover {
     margin: -3px;
 }
 
+/*********** CONTENIDO ***************/
+
+
+.item5 {
+    grid-column: 1/5;
+}
+
+
