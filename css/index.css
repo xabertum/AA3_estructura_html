@@ -24,6 +24,7 @@ h4 {
     grid-column: 1/5;
     font-size: 0.8em;
 }
+
 .item0 > span > img {
     vertical-align: text-bottom;
 }
@@ -37,6 +38,7 @@ h4 {
     grid-column: 1/5;
 
 }
+
 #header-hr {
     border-width: 0.5px;
 }
@@ -56,7 +58,8 @@ h4 {
     font-size: 0.5em;
 }
 
-.item2, .item5 {
+.item2,
+.item5 {
     grid-column: 1/5;
 }
 
@@ -87,11 +90,8 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-
-
 }
 
-/* Change the link color to #111 (black) on hover */
 
 li a:hover {
     background-color: #111;
@@ -103,7 +103,9 @@ li a:hover {
     margin: -3px;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1,
+.bar2,
+.bar3 {
     width: 23px;
     height: 2px;
     background-color: white;
@@ -122,7 +124,6 @@ li a:hover {
     padding-top: 5%;
     font-size: 1.1em;
     text-decoration: underline
-
 }
 
 .align {
