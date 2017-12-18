@@ -8,7 +8,7 @@ body {
     grid-template-rows: 50% 50% 50%;
     grid-gap: 9px;
     max-width: 75%;
-    margin: 0 auto;
+    margin: 15px auto;
 }
 
 h4 {
