@@ -155,9 +155,10 @@ li a:hover {
 .grid-item {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
 
 }
 
-.grid-item > div > h2, h4 {
+.moda {
     margin: 0;
 }
