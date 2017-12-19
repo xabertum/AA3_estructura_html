@@ -166,14 +166,11 @@ li a:hover {
 
 /************** FOOTER ****************/
 
-
 footer {
     background-color: #333;
     grid-column: 1/5;
     color: white;
     padding: 1%;
-
-
 }
 
 .float-right {
@@ -183,6 +180,3 @@ footer {
 footer > p {
     display: inline;
 }
-
-
-
