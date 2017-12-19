@@ -1,4 +1,4 @@
-/********************************/
+/************** GRID SYSTEM ******************/
 
 .grid-container {
     display: grid;
@@ -162,3 +162,27 @@ li a:hover {
 .moda {
     margin: 0;
 }
+
+
+/************** FOOTER ****************/
+
+
+footer {
+    background-color: #333;
+    grid-column: 1/5;
+    color: white;
+    padding: 1%;
+
+
+}
+
+.float-right {
+    float: right;
+}
+
+footer > p {
+    display: inline;
+}
+
+
+
